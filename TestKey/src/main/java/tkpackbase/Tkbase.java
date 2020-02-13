@@ -12,5 +12,6 @@ public class Tkbase {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\innoppl.INNO0252-PC\\Downloads\\chromedriver.exe");
 		driver = new ChromeDriver();
 		return driver;
+		driver.quit();
 	}
 }
